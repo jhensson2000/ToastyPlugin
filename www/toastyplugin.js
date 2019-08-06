@@ -1,4 +1,4 @@
-//Empty constructor
+/*//Empty constructor
 function ToastyPlugin() {}
 
 // The function that passes work along to native shells
@@ -18,4 +18,4 @@ ToastyPlugin.install = function() {
   window.plugins.toastyPlugin = new ToastyPlugin();
   return window.plugins.toastyPlugin;
 };
-cordova.addConstructor(ToastyPlugin.install);
+cordova.addConstructor(ToastyPlugin.install);*/
