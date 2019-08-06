@@ -7,7 +7,7 @@ ToastyPlugin.prototype.show = function(message, duration, successCallback, error
   var options = {};
   options.message = message;
   options.duration = duration;
-  cordova.exec(successCallback, errorCallback, 'ToastyPlugin', 'show', [options]);
+  cordova.exec(successCallback, errorCallback, 'ToastyPlugin', 'show2', [options]);
 }
 
 // Installation constructor that binds ToastyPlugin to window
